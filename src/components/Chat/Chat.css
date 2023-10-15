@@ -1,0 +1,31 @@
+.inp-chat {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.btn-chat{
+    color: blue;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.inp-chat:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.inp-chat::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.chat-h {
+    margin: 10px;
+}

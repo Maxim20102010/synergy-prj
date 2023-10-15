@@ -1,0 +1,43 @@
+.header{
+        width: 100%;
+        background: #35380d;
+        display: inline-block;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.header-text {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 10px;
+} 
+
+.link {
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+header h1::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;  
+    height: 100%;
+}
+
+body {
+    background-color: rgb(249, 247, 198);
+}
+
+.link:hover {
+    color: rgb(191, 201, 201);
+}
